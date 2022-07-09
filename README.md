@@ -4,4 +4,4 @@
 
 <p>Projet dans la continuité de Galery-retro-Steve avec un visuel plus tendance et l'intégration de vidéos.</p>
 
-<p><img href="./images/Projet-galery-Steve.png"></p>
+<p><img href="https://github.com/Webissime111/Alan/blob/master/images/Projet-galery-Steve.png"></p>
