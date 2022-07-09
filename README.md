@@ -7,3 +7,5 @@
 <p>Maquette de la page d'accueil</p>
 
 <p><img src="https://github.com/Webissime111/Galery-Steve/blob/master/images/Projet-galery-Steve.png" alt="Maquette de la page d'accueil de Galery-Steve"></p>
+
+<p align="center"><a href="https://webissime111.github.io/Galery-Steve/">Visualiser l'avancement du projet</a> </p>
