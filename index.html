@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles-slider.css">
   <title>Galerie de Steve</title>
   <link rel="icon" type="image/png" href="./images/favicon.png">
 </head>
@@ -12,14 +13,25 @@
 
   <header>
     <img src="./images/Logo-Galery-Steve.png" alt="Logo de Galery-Steve" width="300">
+    <h1>Galerie de photos et vidéos de Steve</h1>
     <nav>
 
     </nav>
   </header>
   
   <!-- Début 1e section -->
-  <section>
-    <h1>Galerie de photos et vidéos de Steve</h1>
+  <section class="slider">
+    <video autoplay muted loop class="slider__video">
+      <source src="" type="video/mp4">
+    </video>
+    <div class="slider__texte">
+      <h1>Heading</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque dolorum, recusandae neque enim laborum architecto.</p>
+      <!-- Use a button to pause/play the video with JavaScript -->
+      <button class="slider__btn">
+        <a href="">Survolez et cliquez</a>
+      </button>
+    </div>
   </section>
   <!-- Fin 1e section -->
 
