@@ -12,9 +12,9 @@
 <body>
 
   <header>
-    <img src="./images/Logo-Galery-Steve.png" alt="Logo de Galery-Steve" width="300">
-    <h1>Galerie de photos et vidéos de Steve</h1>
-    <nav>
+    <img class="header__logo" src="./images/Logo-Galery-Steve.png" alt="Logo de Galery-Steve" width="300">
+    
+    <nav class="header__nav">
 
     </nav>
   </header>
@@ -25,11 +25,14 @@
       <source src="" type="video/mp4">
     </video>
     <div class="slider__texte">
-      <h1>Heading</h1>
+      <h1>Galerie photos et vidéos de Steve</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque dolorum, recusandae neque enim laborum architecto.</p>
       <!-- Use a button to pause/play the video with JavaScript -->
-      <button class="slider__btn">
-        <a href="">Survolez et cliquez</a>
+      <button class="slider__btn slider__btn--photos">
+        <a href="#">Admirez ces photos</a>
+      </button>
+      <button class="slider__btn slider__btn--videos">
+        <a href="#">Attention à ces vidéos</a>
       </button>
     </div>
   </section>
